@@ -1,0 +1,98 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://c4.wallpaperflare.com/wallpaper/766/944/905/neon-gradient-wallpaper-preview.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8); 
+    color: #fff;
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    left:-1rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.nav-links {
+    list-style: none;
+    display:inline-flex;
+    gap: 1rem;
+    margin-left: -1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: rgba(51, 51, 51, 0.8); 
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgba(85, 85, 85, 0.8); 
+}
+
+section {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    margin: 2rem 0;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    background-color: rgba(51, 51, 51, 0.8); 
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+
